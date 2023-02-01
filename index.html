@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Earthwise</title>
+
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Roboto+Mono&family=Rubik&display=swap" rel="stylesheet">
+
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html">
+				<img src="images/main-logo.png" alt="Earthwise Logo" class="main-logo">
+			</a>
+
+			<nav class="navigation">
+				<button class="accordion" id="mobile-nav">
+					<span class="regular">10 Changes You Can Commit To</span>
+					<span class="bold">Learn More</span>
+				</button>
+
+
+				<div class="panel">
+					<button class="inner-accordion">Home</button>
+
+					<div class="inner-panel">
+						<ul>
+							<li><a href="#who-we-are">Who We Are</a></li>
+							<li><a href="#fast-facts">Fast Facts</a></li>
+							<li><a href="#get-in-touch">Get in Touch</a></li>
+							<li><a href="#social-campaigns">Social Media Campaigns</a></li>
+						</ul>
+
+					</div>
+
+					<button class="inner-accordion">Changes You Can Make</button>
+
+					<div class="inner-panel">
+						<ul>
+							<li><a href="changes.html">Changes</a></li>
+							<li><a href="changes.html">Learn More</a></li>
+						</ul>
+
+					</div>
+
+					<button class="inner-accordion">Resources</button>
+
+					<div class="inner-panel">
+						<ul>
+							<li><a href="resources.html">Favorite Brands</a></li>
+							<li><a href="resources.html#shopping">Places to Shop</a></li>
+							<li><a href="resources.html#rent">Places to Rent</a></li>
+							<li><a href="resources.html#learn-more1">Learn More</a></li>
+						</ul>
+
+					</div>
+
+				</div>
+
+			</nav>
+
+			<nav class="desktop-nav">
+
+				<a href="changes.html" class="desktop-link">10 Changes You Can Commit To</a>
+
+				<a href="resources.html" class="desktop-link">Our Favorite Resources</a>
+
+				<div class="dropdown">
+  				<button class="dropbtn"><span class="bold">Learn More +</span></button>
+
+  				<div class="dropdown-content">
+    				<a href="index.html">Home</a>
+    				<a href="changes.html">Easy Changes</a>
+    				<a href="resources.html">More Resources</a>
+  				</div>
+
+				</div>
+
+			</nav>
+
+		</header>
+
+
+		<main>
+
+			<article class="about-us" id="who-we-are">
+				<h2>Who We Are:</h2>
+
+				<p>We are a group of fun loving gals who care deeply about this earth and want to protect it. We have resources and guides for you to learn more and figure out how to get involved. The planet is in our hands, and together we know we can make a difference.</p>
+
+				<!-- link to ten changes page -->
+				<p class="home-button"><a href="changes.html" target="_blank">Will You Join Us?</a></p>
+
+			</article>
+
+			<p class="gradient-1"></p>
+
+			<article class="fast-facts" id="fast-facts">
+				<h2>Fast Facts:</h2>
+
+				<div class="fact-list">
+					<ul class="first-half">
+						<li>80+ billion items of clothing are purchased each year</li>
+						<li>16 billion tons of clothing are thrown away annually in the US</li>
+						<li>85% of discarded textiles go to the dump each year</li>
+						<li>The equivalent of one garbage truck of clothing is burned or dumped in a landfill every second</li>
+					</ul>
+
+					<ul class="second-half">
+						<li>Fashion is the 2nd most polluting industry globally</li>
+						<li>1.2 billion tons of CO2 are released by the fast fashion industry annually</li>
+						<li>10% of annual global emissions come from the fashion industry</li>
+						<li>The clothing industry is the 2nd largest consumer and polluter of the world's water supply</li>
+					</ul>
+
+				</div>
+
+				<!-- link to ten changes page -->
+				<p class="home-button"><a href="changes.html" target="_blank">Learn More</a></p>
+
+			</article>
+
+			<p class="gradient-2"></p>
+
+			<article class="contact" id="get-in-touch">
+				<h2>Get in Touch:</h2>
+
+				<form id="test_form" name="test_form" class="contact-form" method="post" action="form.php" onsubmit="return validateForm(this)">
+					<ul class="form">
+						<li>
+							<label for="user-name">Name:</label>
+							<input type="text" name="user-name" id="user-name">
+						</li>
+
+						<li>
+							<label for="user-email">Email:</label>
+							<input type="email" name="user-email" id="user-email">
+						</li>
+
+						<li>
+							<label for="user-message" id="message">Message:</label>
+							<textarea name="user-message" id="user-message"></textarea>
+							<!-- <input type="textarea" name="user-message" id="user-message" max="500"> -->
+						</li>
+
+						<li>
+							<input type="submit" value="Send" id="submit-button">
+						</li>
+
+					</ul>
+
+				</form>
+
+			</article>
+
+			<p class="gradient-3"></p>
+
+			<article class="social-media" id="social-campaigns">
+				<h2>Social Media Campaigns:</h2>
+
+				<div class="slideshows">
+					<div class="slideshow-container">
+						<p>About Us Series:</p>
+
+				  	<div class="mySlides1">
+				    	<img src="images/about-us-1.png" alt="Our Planet is in our Hands Graphic">
+				  	</div>
+
+				  	<div class="mySlides1">
+				    	<img src="images/about-us-2.png" alt="Who we are Graphic">
+				  	</div>
+
+				  	<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+				  	<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+					</div>
+
+
+					<div class="slideshow-container">
+						<p>Get Involved Series:</p>
+
+				  	<div class="mySlides2">
+				    	<img src="images/get-involved-1.png" alt="10 Easy Changes Graphic">
+				  	</div>
+
+				  	<div class="mySlides2">
+				    	<img src="images/get-involved-2.png" alt="First 5 changes Graphic">
+				  	</div>
+
+				  	<div class="mySlides2">
+				    	<img src="images/get-involved-3.png" alt="Second 5 Changes Graphic">
+				  	</div>
+
+				  	<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+				  	<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+					</div>
+
+
+					<div class="slideshow-container">
+						<p>Learn More Series:</p>
+
+					  <div class="mySlides3">
+					    <img src="images/learn-more-1.png" alt="CHange 8 Graphic">
+					  </div>
+
+					  <div class="mySlides3">
+					    <img src="images/learn-more-2.png" alt="Change 8 Information Graphic">
+					  </div>
+
+					  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+					  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+					</div>
+
+				</div>
+
+				<!-- link to instagram -->
+				<p class="home-button"><a href="https://www.instagram.com" target="_blank" >See More</a></p>
+
+			</article>
+
+		</main>
+
+
+		<footer>
+			<a href="index.html">
+				<img src="images/sub-logo.png" alt="Alternate Earthwise Logo" class="sub-logo">
+			</a>
+
+			<div class="footer-right">
+				<!-- divs on top of each other on mobile, side by side on desktop -->
+				<div class="footer-info">
+					<p><a href="#who-we-are">Learn More About Earthwise</a></p>
+					<p><a href="#get-in-touch">Get in Touch With Us</a></p>
+				</div>
+
+				<div class="social-media-icons">
+					<a href="https://www.twitter.com" target="_blank">
+						<img src="images/tw-logo.png" alt="Twitter Logo">
+					</a>
+
+					<a href="https://www.facebook.com" target="_blank">
+						<img src="images/fb-logo.png" alt="Facebook Logo">
+					</a>
+
+					<a href="https://www.instagram.com" target="_blank">
+						<img src="images/ig-logo.png" alt="Instagram Logo">
+					</a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+		<script src="js/main.js"></script>
+
+	</body>
+
+</html>
